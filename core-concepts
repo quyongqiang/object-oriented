@@ -1,0 +1,20 @@
+物质是一种能量。
+能量可以用数字表示。
+数字称为属性。
+
+讨论如何更好的处理属性之间的关系。管理和控制属性的行为。
+
+class {
+  attributes
+  methods
+}
+
+type Person struct{
+  Name string
+  Age int
+  getName()
+  setName()
+  beOlder()
+  Eat()
+  ...
+}
