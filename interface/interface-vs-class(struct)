@@ -1,0 +1,10 @@
+struct 在C语言中只保存数据
+struct 在C++中是更宽泛的类
+struct 在go中是数据，可以绑定方法上去
+
+interface也是更宽泛的一种类
+go 中的struct(代替class)可以转化为借口使用，
+go 中的interface是否可以转化成struct?
+
+
+
