@@ -1,8 +1,17 @@
-class
-object = instance
-function ~ methon
+# class
+attribute define + method define + static data(class var) + static method(class method)
+
+# object = instance of a class
+(a piece of new memory have some initialized data and a pointer that point to its class)
+
+# function vs method
 function: out of class, such as built-in functions, print.
 method: in a class, can be instace method or class method.
-binding: after initialization, let instance connect to its class.
+
+# binding
+after initialization, let instance connect to its class.
+the initialize process is binding process.
+
+
 
 
