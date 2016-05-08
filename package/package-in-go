@@ -1,0 +1,8 @@
+类似于库
+
+project-name/pkg/lib1
+project-name/pkg/lib2
+project-name/pkg/net/
+project-name/pkg/net/http.a
+project-name/pkg/net/mail.a
+
