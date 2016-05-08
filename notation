@@ -1,0 +1,8 @@
+class
+object = instance
+function ~ methon
+function: out of class, such as built-in functions, print.
+method: in a class, can be instace method or class method.
+binding: after initialization, let instance connect to its class.
+
+
