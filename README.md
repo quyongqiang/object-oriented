@@ -1,2 +1,2 @@
 # object-oriented
-object-oriented programming 
+thinking in object-oriented programming.
