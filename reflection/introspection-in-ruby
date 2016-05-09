@@ -1,0 +1,29 @@
+reflection in ruby called introspection.
+
+内省(introspection): 可以询问语言构件关于它自己的问题。
+
+
+class Greeting
+  def initialize(text)
+    @text = text
+  end
+  def welcome
+    @text
+  end
+end
+my_object = Greeting.new("Hello")
+
+my_object.class                             # => Greeting
+my_object.class.instance_methods(false)     # => [:welcome]
+my_object.instance_variables                # => [:@text]
+
+
+
+语言构件： variable, class, method ...
+
+在很多语言中，语言构件的行为更像幽灵，而不是有血有肉的人，你在源代码中看到他们，
+然而在程序运行前它们就消失了，像C/C++，一旦编译器完成了它们的工作，像变量和方法
+这样的东西就看不见摸不着了，它们知识内存的位置而已。
+
+在ruby中，运行时，绝大多数语言构件依然存在，你可以走到一个构件面前并且询问关于它
+自己的问题。这就是内省(introspection)
