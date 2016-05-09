@@ -19,4 +19,5 @@ the initialize process is binding process.
 # call a method
 send a message(func name) to the object(pointer to class).
 
-
+# public or private
+go solved this problem better?
